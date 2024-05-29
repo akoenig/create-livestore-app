@@ -11,6 +11,6 @@ console.log(chalk.gray("Scaffolding your new LiveStore project ..."));
 
 emitter.clone(process.cwd()).then(() => {
   console.log(
-    chalk.green("🎉 Your new LiveStore project was scaffolded successfuly!"),
+    chalk.green("🎉 Your new LiveStore project was scaffolded successfully!"),
   );
 });
