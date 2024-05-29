@@ -1,0 +1,20 @@
+{
+  "name": "@akoenig/create-livestore-app",
+  "version": "0.1.7",
+  "description": "Tool for scaffolding a new web application that uses LiveStore",
+  "type": "module",
+  "main": "index.js",
+  "bin": "run",
+  "scripts": {
+    "compile": "tsc"
+  },
+  "devDependencies": {
+    "@types/degit": "^2.8.6",
+    "@types/node": "^20.12.12",
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "degit": "^2.8.4"
+  }
+}
